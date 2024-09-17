@@ -1,0 +1,420 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-container {
+      padding: 12px 16px;
+    }
+    .nav-company-logo icon {
+      width: 84px;
+      height: 21px;
+    }
+    .list-1 {
+      display: none;
+    }
+    /* Registration section */
+    .registration-container {
+      padding-top: 40;
+      padding-inline: 16px;
+      width: 100%;
+    }
+    .registration-section {
+      padding-right: 42px;
+    }
+  
+    /* Ad-1 */
+    .ad-1-container {
+      padding-inline: 16px;
+      flex-direction: column;
+    }
+    .ad-1-left-section {
+      margin-right: 0;
+    }
+    /* ad-2 */
+    .ad-2-container {
+      padding-inline: 16px;
+      flex-direction: column;
+    }
+    .ad-2-left-section {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 24px;
+    }
+    /* ad-3 */
+    .ad-3-container {
+      padding-inline: 16px;
+    }
+  
+    /* ad-4 */
+    .ad-4-container {
+      width: 100%;
+      height: auto;
+      padding-inline: 40px;
+    }
+    .ad-4-list-items {
+      width: 100%;
+    }
+    .ad-4-box-left-section {
+      max-width: 50vw;
+    }
+    .ad-4-box-right-section img {
+      max-width: 50vw;
+    }
+    .ad-4-box-1,
+    .ad-4-box-2,
+    .ad-4-box-3 {
+      width: 100%;
+      height: 100%;
+    }
+    /* ad-5 */
+    .ad-5-container{
+      padding-inline: 16px;
+    }
+    .ad-5-main{
+      padding-inline: 16px;
+      flex-direction: column;
+      align-items: self-start;
+    }
+    /* ad-6 */
+    #ad-6::after{
+      width: calc(50% - calc((1128px - 100vw) / 2));
+      min-width: calc(408px + 16px + 50px);
+      height: 720px;
+    }
+    .ad-6-container{
+      padding-inline: 16px;
+    }
+    .ad-6-left-section{
+      margin-top: 152px;
+    }
+    /* ad-7 */
+    .ad-7-container{
+      width: 100%;
+      height: 100%;
+      padding-inline: 16px;
+      align-items: self-start;
+      flex-direction: column;
+    }
+    
+    .ad-7-left-section{
+      width: 100%;
+      margin-top: 0;
+      margin-bottom: 40px;
+  
+    }
+    .ad-7-right-section{
+      width: 100%;
+    }
+    .ad-7-heading{
+      margin-left: 0;
+    }
+    .ad-7-description{
+      margin-left: 0;
+    }
+    #ad-7::after {
+      height: 60%;
+      width: 100%;
+      bottom: 0;
+      right: unset;
+      top: unset;
+    }
+  
+    /* ad-8 */
+    .ad-8-container {
+      width: 100%;
+      padding-inline: 16px;
+    }
+  
+    /* footer 1 */
+    .footer-1-container{
+      padding: 24px 16px;
+    }
+    #f1-icon,#footer-list-1,#footer-list-2,#footer-list-3,#footer-list-4{
+      width: 20vw;
+    }
+  
+    /* footer 2 */
+    .footer-2-container {
+      padding: 24px 16px;
+    }
+    .footer-2-list {
+      flex-wrap: wrap;
+    }
+    .footer-2-list li {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+      /* Nav section */
+      .nav-container {
+        padding: 12px 16px;
+      }
+      .nav-company-logo icon {
+        width: 84px;
+        height: 21px;
+      }
+      .list-1 {
+        display: none;
+      }
+    
+      /* Registration section */
+      .registration-container {
+        width: 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding-top: 24px;
+        padding-inline: 16px;
+      }
+      .registration-section {
+        width: 100%;
+      }
+      .registration-section h1 {
+        font-size: 32px;
+        font-weight: 300;
+        padding-bottom: 24px;
+        margin-bottom: 0;
+      }
+      .registration-image {
+        width: 100%;
+        height: 100%;
+      }
+      .registration-section form {
+        width: 100%;
+      }
+    
+      /* ad-1 section */
+      .ad-1-container {
+        padding-top: 56px;
+        padding-inline: 16px;
+        flex-direction: column;
+      }
+      .ad-1-left-section {
+        margin-right: 0;
+        margin-bottom: 24px;
+      }
+      .ad-1-left-section h2 {
+        font-size: 32px;
+        font-weight: 400;
+      }
+      .ad-1-left-section p {
+        font-size: 18px;
+        font-weight: 200;
+      }
+      /* Ad-2 section */
+    
+      .ad-2-container {
+        flex-direction: column;
+        padding: 56px 16px;
+      }
+      .ad-2-left-section {
+        width: 100%;
+        margin-right: 0;
+      }
+      .ad-2-left-section h2 {
+        font-size: 32px;
+        font-weight: 400;
+        margin-bottom: 24px;
+      }
+    
+      /* ad-3 section */
+      .ad-3-container {
+        flex-direction: column;
+        align-items: self-start;
+        padding: 56px 16px;
+        margin-right: 0;
+      }
+      .ad-3-container h2 {
+        font-size: 32px;
+        width: 100%;
+        margin-bottom: 24px;
+      }
+      /*  */
+      .ad-4-container {
+        width: 100%;
+        padding: 56px 16px;
+      }
+      .ad-4-box-1,
+      .ad-4-box-2,
+      .ad-4-box-3 {
+        flex-direction: column-reverse;
+        justify-content: center;
+      }
+      .ad-4-box-right-section img {
+        width: 300px;
+        height: 300px;
+      }
+      .ad-4-box-left-section {
+        margin-right: 0;
+        width: 300px;
+      }
+      .ad-4-box-left-section h2 {
+        font-size: 24px;
+      }
+      .ad-4-box-left-section p {
+        font-size: 18px;
+        font-weight: 200;
+      }
+    
+      /* ad-5 section */
+      .ad-5-container {
+        padding: 0;
+      }
+      .ad-5-main {
+        flex-direction: column;
+        padding: 56px 16px;
+      }
+      .ad-5-left-section {
+        width: 100%;
+      }
+      .ad-5-right-section {
+        width: 100%;
+      }
+      .ad-5-left-section svg {
+        width: 240px;
+        height: 240px;
+      }
+      .ad-5-right-section svg {
+        width: 240px;
+        height: 240px;
+      }
+      .ad-5-left-content {
+        width: 100%;
+      }
+      .ad-5-left-content h2 {
+        font-size: 32px;
+        font-weight: 400;
+      }
+      .ad-5-right-content {
+        width: 100%;
+      }
+      .ad-5-right-content h2 {
+        font-size: 32px;
+        font-weight: 400;
+      }
+      #ad-5-btn {
+        width: 100%;
+      }
+      .ad-5-list {
+        width: 100%;
+      }
+    
+      /* ad-6 section */
+      .ad-6-container {
+        padding: 56px 16px;
+        height: auto;
+      }
+      .ad-6-left-section {
+        width: 100%;
+      }
+      #ad-6::after {
+        width: 100%;
+      }
+      .ad-6-left-btns button {
+        width: 100%;
+      }
+      .ad-6-left-section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .ad-6-right-section-img {
+        display: none;
+      }
+      .ad-6-heading {
+        font-size: 32px;
+        font-weight: 500;
+      }
+      .ad-6-description {
+        font-size: 24px;
+        font-weight: 400;
+      }
+    
+      /* ad-7 section */
+      #ad-7 {
+        margin: 0;
+      }
+      #ad-7::after {
+        height: 60%;
+        width: 100%;
+        bottom: 0;
+        right: unset;
+        top: unset;
+      }
+      .ad-7-container {
+        height: auto;
+        padding: 56px 16px;
+        width: 100%;
+        flex-direction: column;
+      }
+      .ad-7-left-section,
+      .ad-7-right-section {
+        width: 100%;
+        margin: 0;
+      }
+      .ad-7-left-section iframe {
+        min-width: 100%;
+        height: 100%;
+        margin-bottom: 40px;
+      }
+      .ad-7-heading {
+        font-size: 32px;
+        font-weight: 500;
+        margin-left: 0;
+        margin-bottom: 8px;
+      }
+      .ad-7-description {
+        font-size: 24px;
+        font-weight: 400;
+        margin-left: 0;
+      }
+      /* ad-8 section */
+      #ad-8 {
+        margin: 0;
+        min-height: fit-content;
+      }
+      #ad-8::after {
+        display: none;
+      }
+      .ad-8-container {
+        width: 100%;
+        padding: 56px 16px;
+      }
+      .ad-8-heading {
+        font-size: 32px;
+        font-weight: 400;
+        margin: 0;
+        margin-bottom: 24px;
+      }
+      /* footer 1 */
+      .footer-1-container {
+        padding: 24px 16px;
+        flex-direction: column;
+        justify-content: flex-start;
+      }
+      #footer-list-1,
+      #footer-list-2,
+      #footer-list-3,
+      #footer-list-4 {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+      }
+      #footer-list-1 {
+        margin-top: -85px;
+      }
+      /* footer 2 */
+      .footer-2-container {
+        padding: 24px 16px;
+      }
+      .footer-2-list {
+        flex-wrap: wrap;
+      }
+      .footer-2-list li {
+        width: 50%;
+      }
+    }
+  
+    @media screen and (max-width: 320px){
+       /* Nav section */
+       .nav-container {
+          display: block;
+        }
+    }
+  
